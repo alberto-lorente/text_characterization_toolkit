@@ -1,0 +1,13 @@
+pandas
+pandarallel
+hyphenator
+lexical-diversity
+nltk
+spacy
+dill
+openpyxl
+matplotlib
+scipy
+seaborn
+scikit-learn
+statsmodels

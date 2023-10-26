@@ -5,6 +5,7 @@
 
 import json
 import time
+import os
 from collections import defaultdict
 from statistics import mean
 
@@ -162,7 +163,8 @@ class DescriptiveIndices(MetricCollection):
 
     def load_resources(self):
 
-        hyphenator_dict_file = self.config.get("hyphenator_dict", None)
+        hyphenator_dict_file = os.path.join(os.path.dirname(__file__), "..", "data/hyph_en_US.dic")
+        print('hyphenator_dict_file', hyphenator_dict_file)
         if hyphenator_dict_file is not None:
             self.hyphenator = Hyphenator(parse_filename_macros(hyphenator_dict_file))
         else:

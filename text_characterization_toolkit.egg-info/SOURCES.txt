@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+text_characterization/__init__.py
+text_characterization/analysis.py
+text_characterization/metrics.py
+text_characterization/parser_backends.py
+text_characterization/utils.py
+text_characterization_toolkit.egg-info/PKG-INFO
+text_characterization_toolkit.egg-info/SOURCES.txt
+text_characterization_toolkit.egg-info/dependency_links.txt
+text_characterization_toolkit.egg-info/requires.txt
+text_characterization_toolkit.egg-info/top_level.txt
